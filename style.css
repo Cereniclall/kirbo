@@ -1,0 +1,223 @@
+body {
+    font-family: "Lucida Console", monospace;
+    background: url(img/pokemon.jpeg);
+    background-color: (136, 171, 119);
+    background-repeat: no-repeat, repeat-y,round;
+    background-color: rgb(133, 171, 119);
+    color: rgb(0, 0, 0);
+    font-size: 1.3vw;
+  }
+
+/* MOBILE */
+@media (min-width: 480px) and (max-width:767px) {
+  body {
+    background-color:rgb(133, 171, 119);
+  }
+}
+/* TABLET */
+@media (min-width: 768px) and (max-width:1023px) {
+  body {
+    background-color:rgb(133, 171, 119);
+  }
+}
+/* SMALL LAPTOP */
+@media (min-width: 1024px) and (max-width:1199px){
+  body {
+    background-color:rgb(133, 171, 119);
+  }
+}
+/* WIDE MONITOR */
+@media (min-width: 1200px) {
+  body {
+    background-color:rgb(133, 171, 119);
+  }
+}
+
+
+
+.intro {
+  width: 50vw;
+  background-color: rgba(244, 249, 249, 0.345);
+  overflow: hidden;
+  font-size: 1.5vw;
+  width: 45vw;
+  height: auto;
+}
+
+.foto {
+  width: 70vw;
+  height: auto;
+  margin-bottom: -100px;
+
+}
+
+.pika {
+  margin-bottom: -120px;
+  margin-left: 70px;
+  width: 10vw;
+  height: auto;
+}
+
+.zoji {
+  margin-left: 75%;
+  margin-bottom: -39px;
+  
+}
+
+  .mvo {
+    margin-top: 10px;
+    border: 1vw solid rgba(0, 0, 0, 0.259);
+    width: 20vw;
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+    margin-bottom: 6vw;
+    position: sticky;
+    top:0px;
+  }
+  
+.rechtse {
+  float: right;
+  width: 30%;
+  margin-top:30px;
+}
+
+.bannerbox {
+  color: #000000;
+  height: 20px;
+  flex: 1;
+}
+
+  .box {
+    font-family: "Lucida Console", monospace;
+    color: #000000;
+    height: 40px;
+    flex: 1;
+    border-bottom-style: dashed;
+    border-color: rgb(140, 200, 244);
+    font-size: 1.4vw;
+  }
+
+.link.site{
+  color: rgb(92, 92, 92);
+}
+
+  .box.zero {
+    background-color: rgb(229, 228, 247);
+    flex: 1;
+  }
+  .box.one {
+    background-color: rgb(244, 249, 249);
+    flex: 1;
+  }
+  .box.two {
+    background-color: rgb(229, 228, 247);
+    flex: 1;
+  }
+
+  .box.three {
+    background-color: rgb(244, 249, 249);
+    flex: 1;
+  }
+
+  .box.four {
+    background-color: rgb(229, 228, 247);
+    flex: 1;
+  }
+
+  .box.five {
+    background-color: rgb(244, 249, 249);
+    flex: 1;
+  }
+
+  .box.six {
+    background-color: rgb(229, 228, 247);
+    flex: 1;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: 6rgba(255, 255, 255, 0.729);
+    font-size: 3vw;
+  }
+
+.centered {
+  position:absolute;
+  top:10vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.2vw;
+}
+
+
+.card {
+  width: 17vw;
+  border: 10px solid rgb(229, 228, 247);
+  background-color: rgb(244, 249, 249);
+  overflow: hidden;
+  box-shadow: 2.5vw 2vw 1.7vw rgba(0, 0, 0, 0.3);
+  font-size: 1.5vw;
+  width: 20vw;
+  height: auto;
+}
+    
+.profile-picture {
+   width: 100%
+}
+    
+h3 {
+  margin-top: 10;
+  font-size: 2vw;
+}
+    
+.name {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  padding: 6px;
+  margin: 0;
+  font-size: 2vw;
+}
+    
+.skills {
+  padding: 6px;
+  font-size: 1.5vw;
+}
+    
+.contact {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(218, 217, 235);
+  
+}
+
+.contact a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+  font-size: 1vw;
+}
+
+nav a{
+  padding:15px 15px;
+  text-decoration: none;
+  color:rgb(201, 76, 76);
+  font-size: 2vw;
+}
+  
+.luffy {
+  margin-left: 70%;
+  width: 20vw;
+  height: auto;
+}
+
+.text-content{
+  background-color: rgba(244, 249, 249, 0.345);
+  overflow: hidden;
+  font-size: 1.5vw;
+  height: auto;
+}
+

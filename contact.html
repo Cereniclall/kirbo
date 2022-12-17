@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Portfolio Ceren</title>
+</head>
+<body>
+   
+    
+    <nav>
+        <a class="menu-link box zero" href="./index.html">Home</a>
+        <a class="menu-link box one" href="./hobby.html">Hobby's</a>
+        <a class="menu-link box two" href="./leren.html">Wat ik wil leren</a>
+        <a class="menu-link box three" href="./anime.html">Favoriete animes</a>
+        <a class="menu-link box four" href="./muziek.html">Favoriete bands</a>
+        <a class= 'menu-link box five' href="./tekeningen.html">Tekeningen</a>
+        <a class= 'menu-link box six' href="./contact.html">Contact</a>
+    </nav>
+
+
+    <section class="form style">
+        <h2 class="titel form">Contact</h2> 
+        <form action="thanks.html">
+            <label class="first name" for="firstName" > Voornaam </label>
+            <input class="form" type="text" id="firstName" name="firstName" placeholder="Enter your first name" required> 
+
+            <label class="last name" for="lastName" > Achternaam </label>
+            <input class="form" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required> 
+
+            <h2 class="bericht">Bericht</h2>
+
+            <label class="email" for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Enter your e-mail" id="email" required>
+
+            <label class="date" for="date"> Datum</label>
+            <input class="form" type="date">
+
+            <h2 class="onderwerp">Onderwerp</h2>
+
+            <label for="contactType"> Reden van contact</label>
+            <select class="form" name="contactType" id="contactType">
+                <option value="question1">Ik heb een vraag. </option>
+                <option value="question2">Ik heb een opmerking.</option>
+            </select>
+
+            <h2 class="bericht">Bericht</h2>
+            
+            <textarea class="form" placeholder="Message..." rows="6"></textarea required>
+
+
+            <div class="container">
+                <ul class="ks-cboxtags">
+                  <li><input type="checkbox" id="checkboxOne" value="Voorwaarden"><label for="checkboxOne">Algemene voorwaarden</label></li>
+                  
+                </ul>
+              
+              </div>
+
+            
+            <button class="submit" type="submit"> Submit </button>
+            
+        </form>
+    </section>
+
+</body>
+</html>
+
+
